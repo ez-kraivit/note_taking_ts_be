@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "incremental": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "sourceMap": true,
+    "outDir": "./build",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums":true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "importHelpers": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "src/**/*",
+    "src/public/*",
+  ]
+}
