@@ -1,0 +1,59 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "note",
+    "dateExported": "2022-05-02T15:56:35.305Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6b95249e-3705-4709-aa10-7f35ceac2dd0",
+            "colId": "15693765-2729-4d14-bc6d-3fabf9769b9c",
+            "containerId": "",
+            "name": "localhost:5080/api/note",
+            "url": "localhost:5080/api/note",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2022-05-02T15:56:22.793Z",
+            "modified": "2022-05-02T15:56:22.793Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\":\"ทดสอบระบบ6\",\n    \"content\":\"ทดสอบอยากระบุต่างๆ ในระบบไปให้หมดเลยจ้าา\",\n    \"tagsTags\":[\"js\",\"ทดสอบระบบ\",\"java\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "da64757b-be14-4e3a-88a7-7472cb5f339e",
+            "colId": "15693765-2729-4d14-bc6d-3fabf9769b9c",
+            "containerId": "",
+            "name": "localhost:5080/api/note/view?page=1&limit=3",
+            "url": "localhost:5080/api/note/view?page=1&limit=3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-05-02T15:56:29.751Z",
+            "modified": "2022-05-02T15:56:29.751Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "tags",
+                    "value": "java",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
