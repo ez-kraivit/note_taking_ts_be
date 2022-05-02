@@ -17,15 +17,10 @@ exports.plugin = {
             }
 
             async getCreate(){
-                try {
-                    this._payload.id = RandomId.generateid('base36',13)
-                    this._payload.createdBy = 'system'
-                    new NoteRepository().insert(this._payload).catch((err)=> {return { message : `${err}`}})
-                    return { message : 'success!'}
-                } catch (error) {
-                    console.info(error)
-                    return { message : 'error' }
-                }
+                this._payload.id = RandomId.generateid('base36',13)
+                this._payload.createdBy = 'system'
+                new NoteRepository().insert(this._payload).catch((err)=> {return { message : `${err}`}})
+                return { message : 'success!'}
             }
 
             
