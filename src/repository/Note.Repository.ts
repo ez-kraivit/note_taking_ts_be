@@ -1,6 +1,6 @@
 import { getConnectionManager,Connection,Repository,ObjectLiteral , IsNull, Not, Like} from "typeorm";
 import NoteMigration from "../migration/Note.Migration";
-import { Tnote , Tlists } from "../interFace/Setup"
+import { Tnote , Tlists } from "../interFace/Note"
 
 export default class NoteRepository {
     private Repository: Repository<NoteMigration> | ObjectLiteral
