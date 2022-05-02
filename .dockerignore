@@ -1,0 +1,17 @@
+node_modules
+node_modules/
+.vs
+.vscode
+_coffee
+.idea/*
+!.idea/watcherTasks.xml
+.DS_Store
+package-lock.json
+*.xlsx
+*.csv
+config/
+yarn.lock
+yarn-error.log
+tsconfig.json
+.gitignore
+src/
