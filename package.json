@@ -10,12 +10,9 @@
     "docker": "node build/src/main.js",
     "build": "rm -rf build && tsc -b"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ez-kraivit/note_taking_ts_be.git"
-  },
+  "repository": "git+https://github.com/ez-kraivit/note_taking_ts_be.git",
   "keywords": [],
-  "author": "",
+  "author": "kraivit <kraivit@edvisory.co.th>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ez-kraivit/note_taking_ts_be/issues"
@@ -43,6 +40,10 @@
     "@types/hapi__hapi": "^20.0.10",
     "@types/qs": "^6.9.7",
     "@types/shelljs": "^0.8.11",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
     "nodemon": "^2.0.15"
   },
   "homepage": "https://github.com/ez-kraivit/note_taking_ts_be#readme"
