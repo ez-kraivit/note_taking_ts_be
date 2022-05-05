@@ -3,3 +3,4 @@ config/*.env
 yarn.lock
 postgres/data/
 yarn-error.log
+backup.md

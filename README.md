@@ -33,24 +33,6 @@
 เป็นส่วนประกอบของการตั้งค่า hapi ทั้งหมด สามารถแก้ไข Port , Cors บรรทัด 14-15 ได้ สามารถออกแบบต่อยอดร่วมกับ Webhook Event ลงใน Line , Discord , Slack ได้
 
 ---
-
-### Code Style Category
-|Category|Style|Remark|
-|-|-|-|
-|File|PascalCase.PascalCase.lowercase|[file name].[folder name].[extension type]|
-|Folder|camelCase||
-|Table Name (database)|snake_cases|snake_case ปกติแต่ให้เป็นพหูพจน์|
-|Global variable (file scope)|_camaleCase|ให้ประกาศด้วย `let` โดยมี `_` นำหน้า
-|Constanct|UPPER_SNAKE_CASE|ค่าคงที่ที่ module นั้นๆ ใช้|
-|Normal variable|camelCase||
-|Function|camelCase||
-|Argument|camelCase||
-|Class|PascalCase||
-|Method|camelCase||
-|Interface|IPascalCase|PascalCase ปกติโดยมี `I` นำหน้า|
-|Type|TPascalCase|PascalCase ปกติโดยมี `T` นำหน้า|
-
----
 ### Install Eslint
 ```
     npm install eslint --save-dev
