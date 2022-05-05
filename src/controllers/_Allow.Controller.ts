@@ -3,8 +3,8 @@ import { Server } from "@hapi/hapi";
 exports.plugin = {
     name: '_Allow.Controller',
     once: true,
-    register: (server: { app: { AllowController : any }  } ,_option:Server) => {
-    
+    register: (server: { app: { AllowController: any } }, _option: Server) => {
+
         type T = string | boolean | number | bigint | symbol | null | undefined | Server | any;
         server.app.AllowController = class AllowController {
             private _request: T;
